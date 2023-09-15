@@ -1,0 +1,57 @@
+*{
+    transition: all linear 1s;
+}
+
+body
+{
+    margin: 0;
+}
+
+nav div
+{
+    display: flex;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+nav div .colored:hover
+{
+    background-color: #7bebeb;
+}
+
+nav div .colored
+{
+    background-color: #00CBCC;
+}
+
+nav div button:hover
+{
+    color: white;
+    background-color: black;
+}
+
+nav div button
+{
+    color: black;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 75px;
+    height: 50px;
+}
+
+nav div ul
+{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
